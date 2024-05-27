@@ -21,13 +21,13 @@ This project is a simple, real-time chat application built using Python and Fire
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/basic-chat-application.git
+    git clone https://github.com/pushkqr/basic-chat-application.git
     cd basic-chat-application
     ```
 
 2. **Install dependencies**:
     ```bash
-    pip install pyrebase4
+    pip install pyrebase5
     ```
 
 3. **Configure Firebase**:
