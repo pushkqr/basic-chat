@@ -15,7 +15,6 @@ This project is a simple, real-time chat application built using Python and Fire
 ### Prerequisites
 
 - Python 3.x
-- Firebase account (for setting up the Realtime Database and Authentication)
 
 ### Installation
 
@@ -27,16 +26,8 @@ This project is a simple, real-time chat application built using Python and Fire
 
 2. **Install dependencies**:
     ```bash
-    pip install pyrebase5
+    pip install firebase-admin
     ```
-
-3. **Configure Firebase**:
-    - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
-    - Enable Email/Password authentication in the Authentication section.
-    - Set up a Realtime Database and obtain your Firebase configuration details.
-
-4. **Update Firebase Configuration**:
-    - Replace the `firebaseConfig` dictionary in the code with your own Firebase configuration details.
 
 ### Running the Application
 
@@ -45,11 +36,11 @@ This project is a simple, real-time chat application built using Python and Fire
     python main.py
     ```
 
-2. **Sign Up or Log In**:
+3. **Sign Up or Log In**:
     - Use the Sign-Up section to create a new account.
     - Use the Log-In section to sign in with your credentials.
 
-3. **Chat**:
+4. **Chat**:
     - After logging in, chat windows will open where you can send and receive messages in real time.
 
 ## Project Structure
@@ -63,10 +54,3 @@ This project is a simple, real-time chat application built using Python and Fire
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Thanks to [Pyrebase](https://github.com/thisbejim/Pyrebase) for the Firebase wrapper.
